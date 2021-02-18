@@ -3,18 +3,22 @@
 1.  Logg inn og opprett et nytt prosjekt i Firebase-konsollen.  
     [https://console.firebase.google.com](https://console.firebase.google.com)
 2.  Legg til en native app!  
-    For iOS:
-        
-        a) iOS: bundle-id finner du enklest ved å åpne prosjektet i Xcode (`FirebaseDemo.xcworkspace` i `ios` mappen), klikk på «FirebaseDemo» øverst til venstre og velg en passende bundle-identifier.
-        b) Last ned GoogleService-Info.plist og dra inn i prosjektet som beskrevet. (Via Xcode!) - Husk å huk av på «Copy items if needed» i Xcode dialogen
-        c) Hopp over steg 3 og 4
+    For iOS: 
+    
+      a) iOS: bundle-id finner du enklest ved å åpne prosjektet i Xcode (`FirebaseDemo.xcworkspace` i `ios` mappen), klikk på «FirebaseDemo» øverst til venstre og velg en passende bundle-identifier.
+      
+      b) Last ned GoogleService-Info.plist og dra inn i prosjektet som beskrevet. (Via Xcode!) - Husk å huk av på «Copy items if needed» i Xcode dialogen
+      
+      c) Hopp over steg 3 og 4
 
 
     For Android:
 
-        a) «Package name» er det samme som `ApplicationId` som du finner i `build.gradle` under `/android/app/`. Ikke endre denne(!!)
-        b) Last ned `google-services.json` filen og legg til i prosjektet som beskrevet
-        c) Hopp over steg 3
+      a) «Package name» er det samme som `ApplicationId` som du finner i `build.gradle` under `/android/app/`. Ikke endre denne(!!)
+      
+      b) Last ned `google-services.json` filen og legg til i prosjektet som beskrevet
+      
+      c) Hopp over steg 3
 
 <img src="../img/fb-add-app.png" width="500" /> <img src="../img/xcode-bundleid.png" width="500" />
 
