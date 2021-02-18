@@ -3,7 +3,7 @@
 1.  Logg inn og opprett et nytt prosjekt i Firebase-konsollen.  
     [https://console.firebase.google.com](https://console.firebase.google.com)
 2.  Legg til en native app!  
-    For iOS: 
+    **For iOS:**
     
       a) iOS: bundle-id finner du enklest ved å åpne prosjektet i Xcode (`FirebaseDemo.xcworkspace` i `ios` mappen), klikk på «FirebaseDemo» øverst til venstre og velg en passende bundle-identifier.
       
@@ -12,7 +12,7 @@
       c) Hopp over steg 3 og 4
 
 
-    For Android:
+    **For Android:**
 
       a) «Package name» er det samme som `ApplicationId` som du finner i `build.gradle` under `/android/app/`. Ikke endre denne(!!)
       
